@@ -1,0 +1,154 @@
+
+
+
+h4 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+}
+
+hr {
+    height: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.messages {
+    margin: 30px;
+    text-align: left;
+}
+
+.msg_item {
+    overflow: hidden
+}
+
+.from,
+.msg_body,
+.att_head,
+.attacments,
+.attacment,
+.fwd {
+    margin-left: 60px;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.msg_item {
+    margin-top: 5px;
+}
+
+.upic {
+    float: left
+}
+
+.upic img {
+    vertical-align: top;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.round_upic .upic img {
+    border-radius: 50%;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+a:focus,
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+.att_head {
+    color: #777;
+}
+
+.att_ico {
+    float: left;
+    width: 11px;
+    height: 11px;
+    margin: 3px 3px 2px;
+    background-image: url('http://vk.com/images/icons/mono_iconset.gif');
+}
+
+.att_photo {
+    background-position: 0 -30px;
+    width: 200px;
+}
+
+.att_audio {
+    background-position: 0 -222px;
+}
+
+.att_video {
+    background-position: 0 -75px;
+}
+
+.att_doc {
+    background-position: 0 -280px;
+}
+
+.att_wall,
+.att_fwd {
+    background-position: 0 -194px;
+}
+
+.att_gift {
+    background-position: 0 -105px;
+}
+
+.att_sticker {
+    background-position: 0 -362px;
+    width: 12px;
+    height: 12px;
+}
+
+.att_link {
+    background-position: 0 -237px;
+}
+
+.attb_link a span {
+    color: #777777 !important;
+}
+
+.att_geo {
+    background-position: 0 -165px;
+}
+
+.fwd {
+    border: 2px solid #C3D1E0;
+    border-width: 0 0 0 2px;
+    margin-left: 85px;
+}
+
+.attachments{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    /*width: 180px;*/
+}
